@@ -14,7 +14,7 @@ class operaciones():
 
     def division(self):
         return self.x / self.y
-
+    
 
 def main(opcion):
 
@@ -26,12 +26,16 @@ def main(opcion):
         print("Cerrando programa")
     if(opcion == 1):
         print(obj.suma())
+        elejir()
     elif(opcion == 2):
         print(obj.resta())
+        elejir()
     elif(opcion == 3):
         print(obj.multiplicacion())
+        elejir()
     elif(opcion == 4):
         print(obj.division())
+        elejir()
 
 def elejir():
     print(" 1. Sumar \n 2. Restar \n 3. Multiplicar \n 4. Dividir \n 5. Salir")
